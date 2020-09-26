@@ -121,3 +121,18 @@ Display some notes on how to use this script.
 Settings really depend on what you hope to detect. Are your particular needle and haystack conducive to many false positives? Then omit the threshold argument and let the script make a single best guess. Are there likely to be several instances of your needle that you'd like to find? Then allow a threshold generous enough (closer to 0.0) to admit more hypotheses, but not so generous (closer to 1.0) that only verbatim matches will make the cut.
 
 The fusebox needle in our basement experiments proved a difficult case. Typically, thresholds around 0.6 would find something satisfactorily box-like; lower thresholds tended to admit too many hypotheses or to "hallucinate" shapes that seem to match the fusebox template's distributions of light and dark.
+
+## Citation
+
+If this code was helpful for your research, please consider citing this repository.
+
+```
+@misc{2d-template-matcher_2019,
+  title={2D-Template-Matcher},
+  author={Eric C. Joyce},
+  year={2019},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/EricCJoyce/2D-Template-Matcher}}
+}
+```
